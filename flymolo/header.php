@@ -19,6 +19,19 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
+	<?php
+	/* ============================================
+	Webfont
+	============================================ */
+	?>
+	<script type="text/javascript" src="//use.typekit.net/wro4zab.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<?php
+	/* ============================================
+	/end Webfont
+	============================================ */
+	?>
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width" />
 	<title><?php wp_title( '|', true, 'right' ); ?></title>

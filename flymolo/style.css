@@ -100,7 +100,7 @@ input,
 select,
 textarea {
 	/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: "museo-sans", Helvetica, sans-serif;
 }
 
 body {
